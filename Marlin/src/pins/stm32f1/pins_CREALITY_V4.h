@@ -204,7 +204,7 @@
     #define EXP3_02_PIN                     PB2
   #endif
   #ifndef EXP3_03_PIN
-    #define EXP3_03_PIN                     PB10
+    #define EXP3_03_PIN                     PA2
   #endif
   #ifndef EXP3_04_PIN
     #define EXP3_04_PIN                     PB11
