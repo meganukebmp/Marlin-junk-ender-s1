@@ -20,8 +20,7 @@
  *
  */
 #pragma once
-#error "Don't build with import-2.1.x configurations!"
-#error "Use the 'bugfix...' or 'release...' configurations matching your Marlin version."
+
 
 /**
  * Configuration.h
@@ -133,12 +132,12 @@
 //#define BLUETOOTH
 
 // Name displayed in the LCD "Ready" message and Info menu
-#define CUSTOM_MACHINE_NAME "Ender-3 S1 - ABL F4"
+#define CUSTOM_MACHINE_NAME "Ender-3 S1"
 //#define CONFIGURABLE_MACHINE_NAME // Add G-code M550 to set/report the machine name
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like https://www.uuidgenerator.net/version4
-#define MACHINE_UUID " 797cc6c3-b54a-4eae-974d-6529ab992d79"
+#define MACHINE_UUID " d011f2a9-db1a-4764-ad33-aaf6c0435d8a"
 
 // @section stepper drivers
 
