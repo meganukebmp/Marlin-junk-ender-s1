@@ -2522,6 +2522,12 @@
 #define PREHEAT_4_TEMP_CHAMBER  35
 #define PREHEAT_4_FAN_SPEED      0 // Value from 0 to 255
 
+#define PREHEAT_5_LABEL       "ABS"
+#define PREHEAT_5_TEMP_HOTEND  240
+#define PREHEAT_5_TEMP_BED      100
+#define PREHEAT_5_TEMP_CHAMBER  35
+#define PREHEAT_5_FAN_SPEED      0 // Value from 0 to 255
+
 /**
  * @section nozzle park
  *
@@ -2845,7 +2851,7 @@
 // Add individual axis homing items (Home X, Home Y, and Home Z) to the LCD menu.
 //
 #define INDIVIDUAL_AXIS_HOMING_MENU
-#define INDIVIDUAL_AXIS_HOMING_SUBMENU
+//#define INDIVIDUAL_AXIS_HOMING_SUBMENU
 
 //
 // SPEAKER/BUZZER
@@ -2853,7 +2859,7 @@
 // If you have a speaker that can produce tones, enable it here.
 // By default Marlin assumes you have a buzzer with a fixed frequency.
 //
-//#define SPEAKER
+#define SPEAKER
 
 //
 // The duration and frequency for the UI feedback sound.
