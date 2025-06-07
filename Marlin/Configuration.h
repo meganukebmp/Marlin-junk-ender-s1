@@ -1299,7 +1299,7 @@
  * Override with M92 (when enabled below)
  *                                      X, Y, Z [, I [, J [, K...]]], E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 430 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 912.75 }
 
 /**
  * Enable support for M92. Disable to save at least ~530 bytes of flash.
@@ -1902,12 +1902,12 @@
 // @section geometry
 
 // The size of the printable area
-#define X_BED_SIZE 222
-#define Y_BED_SIZE 228
+#define X_BED_SIZE 219
+#define Y_BED_SIZE 225
 
 // Travel limits (linear=mm, rotational=°) after homing, corresponding to endstop positions.
-#define X_MIN_POS -33
-#define Y_MIN_POS -18
+#define X_MIN_POS -36
+#define Y_MIN_POS -21
 #define Z_MIN_POS 0
 #define X_MAX_POS X_BED_SIZE
 #define Y_MAX_POS Y_BED_SIZE
